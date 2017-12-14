@@ -55,6 +55,14 @@ h3{
 	color:white;
 	text-shadow: 2px 2px #FF006C;
 }
+.nav-link:hover{
+	z-index:3;
+	display:inline;
+	font-size:30px;
+	font-weight:bold;
+	color:white;
+	text-shadow: 2px 2px #FF006C;
+}
 .embed-container{
 	margin-top:25px
 }
@@ -69,5 +77,24 @@ button{
 }
 .footer{
 	background-color:grey;
+
+}
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px){
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px){
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px){
+
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px){
 
 }
