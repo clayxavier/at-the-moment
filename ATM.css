@@ -30,8 +30,10 @@ h3{
 
 }
 .header{
-	height:200px;
-	background-image:url(header4.png);
+	height:300px;
+	background-image:url(header6.png);
+	background-size:100%;
+	background-repeat:no-repeat;
 }
 .header-img{
 	z-index:-1;
