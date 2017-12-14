@@ -8,6 +8,7 @@ body{
 .cover{
 	/*display:inline-block;*/
 	width:50%;
+	height:50%;
 }
 h1{
 	font-size:65px;
