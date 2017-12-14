@@ -1,6 +1,6 @@
-/*div{
+div{
 	border:solid black 1px;
-}*/
+}
 body{
 	background-image:url(orange3.png);
 	background-size:100vh;
@@ -72,6 +72,9 @@ button{
 	border: solid black 10px;
 
 }
+.header.show{
+	background-image:url(header.png);
+}
 .spacer{
 	height:20vh;
 }
@@ -81,7 +84,11 @@ button{
 }
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px){
-
+	.cover{
+	/*display:inline-block;*/
+	width:100%;
+	height:50%;
+}
 }
 
 /*Medium devices (tablets, 768px and up)*/
@@ -91,7 +98,11 @@ button{
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px){
-
+	.cover{
+	/*display:inline-block;*/
+	width:50%;
+	height:50%;
+}
 }
 
 /*Extra large devices (large desktops, 1200px and up)*/
