@@ -1,9 +1,16 @@
 /*div{
 	border:solid black 1px;
 }*/
-body{
-	background-image:url(orange3.png);
+.home{
+	background-image:url(orange2.png);
 	background-size:100vh;
+}
+.watch{
+	background-image:url(yellow.png);
+	background-size:100vh;
+}
+.content{
+	margin-bottom:100px;
 }
 
 h1{
