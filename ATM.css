@@ -2,15 +2,30 @@
 	border:solid black 1px;
 }*/
 .home{
-	background-image:url(orange2.png);
+	background-image:url(assets/orange2.png);
 	background-size:100vh;
 }
 .watch{
-	background-image:url(yellow.png);
+	background-image:url(assets/yellow.png);
+	background-size:100vh;
+}
+.artists{
+	background-image:url(assets/blue.png);
+	background-size:100vh;
+}
+.about{
+	background-image:url(assets/pink.png);
+	background-size:100vh;
+}
+.about-text{
+	color:white;
+}
+.contact{
+	background-image:url(assets/green.png);
 	background-size:100vh;
 }
 .content{
-	margin-bottom:100px;
+	margin-bottom:75px;
 }
 
 h1{
@@ -85,7 +100,7 @@ button{
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px){
 	.header{
-		background-image:url(header6.png);
+		background-image:url(assets/header6.png);
 		background-size:100%;
 		background-repeat:no-repeat;
 		height:250px;
@@ -115,7 +130,7 @@ button{
 	padding-left:15px;	
 	}
 		.header{
-		background-image:url(header6.png);
+		background-image:url(assets/header6.png);
 		background-size:100%;
 		background-repeat:no-repeat;
 		height:250px;
@@ -140,7 +155,7 @@ button{
 	padding-left:15px;
 }
 		.header{
-		background-image:url(header6.png);
+		background-image:url(assets/header6.png);
 		background-size:100%;
 		background-repeat:no-repeat;
 		height:250px;
@@ -165,7 +180,7 @@ button{
 	padding-left:15px;
 }
 	.header{
-		background-image:url(header6.png);
+		background-image:url(assets/header6.png);
 		background-size:100%;
 		background-repeat:no-repeat;
 		height:250px;
