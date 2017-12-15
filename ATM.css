@@ -5,14 +5,11 @@ body{
 	background-image:url(orange3.png);
 	background-size:100vh;
 }
-.cover{
-	/*display:inline-block;*/
-	width:50%;
-	height:50%;
-}
+
 h1{
 	font-size:65px;
 	color:white;
+	text-shadow: 5px 5px #FF006C;
 }
 h2{
 	font-size:45px;
@@ -30,12 +27,7 @@ h3{
 	height:30px;
 
 }
-.header{
-	height:300px;
-	background-image:url(header6.png);
-	background-size:100%;
-	background-repeat:no-repeat;
-}
+
 .header-img{
 	z-index:-1;
 }
@@ -72,9 +64,7 @@ button{
 	border: solid black 10px;
 
 }
-.header.show{
-	background-image:url(header.png);
-}
+
 .spacer{
 	height:20vh;
 }
@@ -82,30 +72,98 @@ button{
 	background-color:grey;
 
 }
+#slides {
+      display:none;
+    }
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px){
-	.cover{
-	/*display:inline-block;*/
-	width:100%;
-	height:50%;
-}
+	.header{
+		background-image:url(header6.png);
+		background-size:100%;
+		background-repeat:no-repeat;
+		height:250px;
+		
+	}
 }
 
 /*Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px){
+@media (max-width: 768px){
+	.frontcover{
+	display:inline-block;
+	width:100%;
+	height:50%;
+	padding-right:15px;
+	padding-left:15px;
+}
+	.backcover{
+	display:inline-block;
+	width:100%;
+	height:50%;
+	padding-right:15px;
+	padding-left:15px;
 
+}
+	.soundcloud{
+	padding-right:15px;
+	padding-left:15px;	
+	}
+		.header{
+		background-image:url(header6.png);
+		background-size:100%;
+		background-repeat:no-repeat;
+		height:250px;
+		
+	}	
 }
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px){
-	.cover{
-	/*display:inline-block;*/
+		.frontcover{
+	display:inline-block;
 	width:50%;
 	height:50%;
+	padding-right:15px;
+	padding-left:none;
 }
+	.backcover{
+	display:inline-block;
+	width:50%;
+	height:50%;
+	padding-right:none;
+	padding-left:15px;
+}
+		.header{
+		background-image:url(header6.png);
+		background-size:100%;
+		background-repeat:no-repeat;
+		height:250px;
+		
+	}
 }
 
 /*Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px){
+		.frontcover{
+	display:inline-block;
+	width:50%;
+	height:50%;
+	padding-right:15px;
+	padding-left:none;
+}
+	.backcover{
+	display:inline-block;
+	width:50%;
+	height:50%;
+	padding-right:none;
+	padding-left:15px;
+}
+	.header{
+		background-image:url(header6.png);
+		background-size:100%;
+		background-repeat:no-repeat;
+		height:250px;
+		
+	}
+
 
 }
