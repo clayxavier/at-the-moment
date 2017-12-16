@@ -57,12 +57,20 @@
 			<!-- Content -->
 
 			<div class="row content">
-				<div class="col-md-1 col-12">
+				<div class="col-md-2 col-12">
 				</div>
-				<div class="col-md-10 col-12">
-					
+				<div class="col-md-8 col-12">
+					<div id="slides">
+    					<img src="assets/slideshow.png">
+					    <img src="assets/slideshow.png">
+					    <img src="assets/slideshow.png">
+					    <img src="assets/slideshow.png">
+					    <img src="assets/slideshow.png">
+					    <a href="#" class="slidesjs-previous slidesjs-navigation"><img src="assets/arrow-left.png"></a>
+      					<a href="#" class="slidesjs-next slidesjs-navigation float-right"><img src="assets/arrow-right.png"></a>
+ 					</div>	
 				</div>
-				<div class="col-md-1 col-12">
+				<div class="col-md-2 col-12">
 				</div>
 			</div>
 
@@ -94,6 +102,42 @@
 		<!-- Scripts -->
 
 		<script src="jquery-3.2.1.min.js"></script>
+		<script src="jquery.slides.js"></script>
+		<script>
+	    	$(function(){
+	      	$("#slides").slidesjs({
+	        width: 900,
+	        height: 900,
+
+	        navigation: {
+      		active: false,
+      			  // [boolean] Generates next and previous buttons.
+      			  // You can set to false and use your own buttons.
+      			  // User defined buttons must have the following:
+     				// previous button: class="slidesjs-previous slidesjs-navigation"
+      			  // next button: class="slidesjs-next slidesjs-navigation"
+      			effect: "slide",
+       			 // [string] Can be either "slide" or "fade".
+   				 },
+
+   				 play: {
+   				 	active: false,
+   				 	effect: "slide",
+   				 	auto: false,
+   				 },
+
+   				 effect: {
+   				 	slide: {
+   				 		speed: 2500,
+   				 	},
+   				 },
+
+   				  pagination: {
+     			 active: false,
+			    },
+	      	});
+    		});
+  		</script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 	</body>
