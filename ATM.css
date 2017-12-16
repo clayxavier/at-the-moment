@@ -67,18 +67,15 @@ h3{
 .header-link:hover{
 	z-index:3;
 	display:inline;
-	font-size:30px;
+	font-size:30.5px;
 	font-weight:bold;
-	color:white;
-	text-shadow: 2px 2px #FF006C;
+	font-weight:bold;
 }
 .nav-link:hover{
 	z-index:3;
 	display:inline;
-	font-size:30px;
+	font-size:30.5px;
 	font-weight:bold;
-	color:white;
-	text-shadow: 2px 2px #FF006C;
 }
 .embed-container{
 	margin-top:25px
