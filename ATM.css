@@ -52,6 +52,11 @@ h3{
 	height:30px;
 
 }
+.header{
+	background-image:url(assets/Paper.png);
+	background-repeat:no-repeat;
+		
+	}
 
 .header-img{
 	z-index:-1;
