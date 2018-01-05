@@ -1,6 +1,6 @@
-/*div{
+div{
 	border:solid black 1px;
-}*/
+}
 .home{
 	background-image:url(assets/orange2.png);
 	background-size:100vh;
@@ -61,7 +61,7 @@ h3{
 .header-img{
 	z-index:-1;
 }
-.header-link{
+/*.header-link{
 	z-index:3;
 	display:inline;
 	font-size:30px;
@@ -76,11 +76,23 @@ h3{
 	font-weight:bold;
 	font-weight:bold;
 }
+*/.nav-link{
+	z-index:3;
+	display:inline;
+	font-weight:bold;
+	text-decoration:none;
+	color:white;
+
+}
 .nav-link:hover{
 	z-index:3;
 	display:inline;
-	font-size:30.5px;
 	font-weight:bold;
+	font-style:none;
+	text-decoration:none;
+	color:white;
+	text-shadow: 2px 2px #FF006C;
+	
 }
 .embed-container{
 	margin-top:25px
@@ -101,7 +113,24 @@ button{
 }
 #slides {
       display:none;
-    }
+}
+.slidePic{
+	z-index:-1;
+}
+.arrowLeft{
+	position:relative;
+	bottom:500px;
+	right:0px;
+	z-index:2;
+
+}
+.arrowRight{
+	position:relative;
+	bottom:;
+	left:;
+
+
+}
 /*Small devices (landscape phones, 576px and up)*/
 /*@media (max-width: 576px){
 		.frontcover{
