@@ -1,6 +1,6 @@
-div{
+/*div{
 	border:solid black 1px;
-}
+}*/
 .home{
 	background-image:url(assets/orange2.png);
 	background-size:100vh;
@@ -111,11 +111,16 @@ button{
 	background-color:grey;
 
 }
+#artistName{
+	color:white;
+
+}
+#artistBio{
+	color:white;
+
+}
 #slides {
       display:none;
-}
-.slidePic{
-	z-index:-1;
 }
 .arrowLeft{
 	position:relative;
