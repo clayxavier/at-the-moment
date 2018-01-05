@@ -3,19 +3,19 @@
 }*/
 .home{
 	background-image:url(assets/orange2.png);
-	background-size:100vh;
+	background-size:100vw;
 }
 .watch{
 	background-image:url(assets/yellow.png);
-	background-size:100vh;
+	background-size:100vw;
 }
 .artists{
 	background-image:url(assets/blue.png);
-	background-size:100vh;
+	background-size:100vw;
 }
 .about{
 	background-image:url(assets/lightPink.png);
-	background-size:100vh;
+	background-size:100vw;
 }
 .about-text{
 	color:white;
