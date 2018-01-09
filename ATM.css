@@ -45,6 +45,9 @@ h3{
 	font-size:20px;
 	color:white;
 }
+h5{
+	color:white;
+}
 .logo{
 	height:75px;
 }
@@ -136,114 +139,22 @@ button{
 
 
 }
-/*Small devices (landscape phones, 576px and up)*/
-/*@media (max-width: 576px){
-		.frontcover{
-	display:inline-block;
-	width:100%;
-	height:50%;
-	padding-right:15px;
-	padding-left:15px;
+/*// Extra Small 
+@media (min-width: 0px) { ... }
+#artistRow{
+	text-align:center;
 }
-	.backcover{
-	display:inline-block;
-	width:100%;
-	height:50%;
-	padding-right:15px;
-	padding-left:15px;
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+#artistRow{
+	text-align:center;
+}
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
 
-}
-	.soundcloud{
-	padding-right:15px;
-	padding-left:15px;	
-	}
-	.header{
-		background-image:url(assets/header2.png);
-		background-height:200px;
-		background-repeat:no-repeat;
-		height:250px;
-		
-	}
-}
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
 */
-/*Medium devices (tablets, 768px and up)*/
-/*@media (max-width: 768px){
-	.frontcover{
-	display:inline-block;
-	width:100%;
-	height:50%;
-	padding-right:15px;
-	padding-left:15px;
-}
-	.backcover{
-	display:inline-block;
-	width:100%;
-	height:50%;
-	padding-right:15px;
-	padding-left:15px;
-
-}
-	.soundcloud{
-	padding-right:15px;
-	padding-left:15px;	
-	}
-		.header{
-		background-image:url(assets/header2.png);
-		background-size:100%;
-		background-repeat:no-repeat;
-		height:250px;
-		
-	}	
-}
-*/
-/*Large devices (desktops, 992px and up)*/
-/*@media (max-width: 992px){
-		.frontcover{
-	display:inline-block;
-	width:50%;
-	height:50%;
-	padding-right:15px;
-	padding-left:none;
-}
-	.backcover{
-	display:inline-block;
-	width:50%;
-	height:50%;
-	padding-right:none;
-	padding-left:15px;
-}
-		.header{
-		background-image:url(assets/header6.png);
-		background-size:100%;
-		background-repeat:no-repeat;
-		height:250px;
-		
-	}
-}
-*/
-/*Extra large devices (large desktops, 1200px and up)*/
-/*@media (max-width: 1200px){
-		.frontcover{
-	display:inline-block;
-	width:50%;
-	height:50%;
-	padding-right:15px;
-	padding-left:none;
-}
-	.backcover{
-	display:inline-block;
-	width:50%;
-	height:50%;
-	padding-right:none;
-	padding-left:15px;
-}
-	.header{
-		background-image:url(assets/header6.png);
-		background-size:100%;
-		background-repeat:no-repeat;
-		height:250px;
-		
-	}
-
-
-}*/
