@@ -1,6 +1,6 @@
-/*div{
+/* div{
 	border:solid black 1px;
-}*/
+} */
 .home{
 	background-image:url(assets/orange2.png);
 	background-size:100vw;
@@ -58,7 +58,7 @@ h5{
 .header{
 	background-image:url(assets/Paper.png);
 	background-repeat:no-repeat;
-		
+
 	}
 
 .header-img{
@@ -70,7 +70,7 @@ h5{
 	font-size:30px;
 	font-weight:bold;
 	color:black;
-	
+
 }
 .header-link:hover{
 	z-index:3;
@@ -95,7 +95,7 @@ h5{
 	text-decoration:none;
 	color:white;
 	text-shadow: 2px 2px #FF006C;
-	
+
 }
 .embed-container{
 	margin-top:25px
@@ -139,7 +139,13 @@ button{
 
 
 }
-/*// Extra Small 
+.vid{
+	border-style:solid;
+	border-color: rgba(255,255,255,0.5);
+	border-width: 10px;
+	border-radius: 10px;
+}
+/*// Extra Small
 @media (min-width: 0px) { ... }
 #artistRow{
 	text-align:center;
